@@ -1,0 +1,92 @@
+0000.043 () Opened log file at time: Tue, 02 Apr 2019 05:06:51 +0000 on http://3.104.220.106
+0000.043 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.10 WP: 5.0.4 PHP: 7.2.13 (fpm-fcgi, Linux ip-172-31-8-28 4.4.0-1074-aws #84-Ubuntu SMP Thu Dec 6 08:57:58 UTC 2018 x86_64) MySQL: 8.0.13 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.1M | 4M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.043 () Free space on disk containing Updraft's temporary directory: 6106.5 MB
+0000.072 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.076 () Entity: db
+0000.076 () restore_backup(backup_file=backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-db.gz, type=db, info=a:0:{}, last_one=)
+0000.076 () Unpacking backup... (backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-db.gz, 1.1 Mb)
+0000.078 () Database successfully unpacked
+0000.078 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.078 () Using direct MySQL access; value of use_mysqli is: 1
+0000.158 () Max packet size: 32 MB
+0000.158 () Entering maintenance mode
+0000.158 () Enabling Maintenance mode&#8230;
+0000.159 () Backup of: http://3.104.220.106
+0000.161 () Content URL: http://3.104.220.106/wp-content
+0000.161 () Uploads URL: http://3.104.220.106/wp-content/uploads
+0000.161 () Old table prefix: wp_
+0000.161 () Site information: multisite=0
+0000.164 () New table prefix: wp_
+0000.178 () Processing table (InnoDB): wp_options
+0000.441 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0000.474 () Processing table (InnoDB): wp_users
+0000.526 () Processing table (InnoDB): wp_usermeta
+0000.574 () Processing table (InnoDB): wp_commentmeta
+0000.630 () Processing table (InnoDB): wp_comments
+0000.693 () Processing table (InnoDB): wp_links
+0000.740 () Processing table (InnoDB): wp_postmeta
+0001.853 () Database queries processed: 50 in 1.77 seconds
+0001.853 () Processing table (InnoDB): wp_posts
+0002.179 () Processing table (InnoDB): wp_term_relationships
+0002.226 () Processing table (InnoDB): wp_term_taxonomy
+0002.326 () Processing table (InnoDB): wp_termmeta
+0002.375 () Processing table (InnoDB): wp_terms
+0002.421 () Processing table (InnoDB): wp_ariadminer_connections
+0002.455 () Processing table (InnoDB): wp_nextend2_image_storage
+0002.501 () Processing table (InnoDB): wp_nextend2_section_storage
+0002.551 () Processing table (InnoDB): wp_nextend2_smartslider3_generators
+0002.586 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders
+0002.626 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders_xref
+0002.662 () Processing table (InnoDB): wp_nextend2_smartslider3_slides
+0002.702 () Processing table (InnoDB): wp_revisr
+0002.730 () UpdraftPlus Vault: this site has not been connected - check your settings
+0004.385 () Unlocking database and leaving maintenance mode
+0004.385 () Disabling Maintenance mode&#8230;
+0004.385 () Finished: lines processed: 89 in 4.30 seconds
+0004.386 () Cleaning up rubbish...
+0004.403 () Entity: plugins
+0004.403 () restore_backup(backup_file=backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0004.404 () Unpacking backup... (backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-plugins.zip, 19.2 MB)
+0004.404 () Unzipping backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-plugins.zip to /opt/bitnami/apps/wordpress/htdocs/wp-content/upgrade/b7a9cef3/ using UpdraftPlus_ZipArchive, starting index 0
+0004.547 () Unzip progress: 1002 out of 4626 files (4.1 MB, plugins/elementor/core/modules-manager.php)
+0004.765 () Unzip progress: 2003 out of 4626 files (15.7 MB, plugins/popup-maker/includes/pum-sdk/freemius/languages/freemius-he_IL.mo)
+0005.194 () Unzip progress: 3004 out of 4626 files (31.7 MB, plugins/updraftplus/languages/updraftplus-bg_BG.mo)
+0005.619 () Unzip progress: 4005 out of 4626 files (56.8 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/composer.json)
+0005.762 () Unzip progress: 4626 out of 4626 files (59.6 MB, plugins/ari-adminer/adminer/adminer/adminer/static/up.gif)
+0005.770 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.770 () Moving old data: can potentially use wp_filesystem method / -old
+0005.770 () Moving old data out of the way...
+0005.923 () Top-level entities being moved: astra-sites, revisr, elementor, smart-slider-3, popup-maker, index.php, wpforms-lite, updraftplus, ultimate-addons-for-gutenberg, ari-adminer
+0005.928 () Moving unpacked backup into place...
+0006.077 () Top-level entities being moved: astra-sites, revisr, elementor, smart-slider-3, popup-maker, index.php, wpforms-lite, updraftplus, ultimate-addons-for-gutenberg, ari-adminer
+0006.078 () Cleaning up rubbish...
+0006.105 () Entity: themes
+0006.105 () restore_backup(backup_file=backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-themes.zip, type=themes, info=a:2:{s:4:"path";s:52:"/opt/bitnami/apps/wordpress/htdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0006.105 () Unpacking backup... (backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-themes.zip, 2.7 MB)
+0006.105 () Unzipping backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-themes.zip to /opt/bitnami/apps/wordpress/htdocs/wp-content/upgrade/204f2e85/ using UpdraftPlus_ZipArchive, starting index 0
+0006.240 () Unzip progress: 693 out of 693 files (6.3 MB, themes/twentynineteen/js/priority-menu.js)
+0006.242 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.242 () Moving old data: can potentially use wp_filesystem method / -old
+0006.242 () Moving old data out of the way...
+0006.269 () Top-level entities being moved: twentyseventeen, astra, twentynineteen, index.php, twentysixteen
+0006.271 () Moving unpacked backup into place...
+0006.294 () Top-level entities being moved: twentyseventeen, astra, twentynineteen, index.php, twentysixteen
+0006.294 () Cleaning up rubbish...
+0006.305 () Entity: uploads
+0006.305 () restore_backup(backup_file=backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0006.305 () Unpacking backup... (backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-uploads.zip, 46.3 MB)
+0006.305 () Unzipping backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-uploads.zip to /opt/bitnami/apps/wordpress/htdocs/wp-content/upgrade/e39d36c3/ using UpdraftPlus_ZipArchive, starting index 0
+0007.273 () Unzip progress: 597 out of 597 files (47.4 MB, uploads/2019/04/food3-free-img-300x300.png)
+0007.280 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.280 () Moving old data: can potentially use wp_filesystem method / -old
+0007.280 () Moving old data out of the way...
+0007.300 () Moving unpacked backup into place...
+0007.318 () Cleaning up rubbish...
+0007.339 () Entity: others
+0007.339 () restore_backup(backup_file=backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-others.zip, type=others, info=a:2:{s:4:"path";s:45:"/opt/bitnami/apps/wordpress/htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0007.339 () Unpacking backup... (backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-others.zip, 0 MB)
+0007.339 () Unzipping backup_2019-04-02-0503_TECH_SIMIANS_PRESENT_190a9a2f4e7a-others.zip to /opt/bitnami/apps/wordpress/htdocs/wp-content/upgrade/77ad29f4/ using UpdraftPlus_ZipArchive, starting index 0
+0007.344 () Unzip progress: 5 out of 5 files (157 B, ari-adminer-config.php)
+0007.345 () Cleaning up rubbish...
+0007.361 () Restore successful!
+0007.361 () Restore successful

@@ -1,0 +1,30 @@
+
+==== DELETED - POST ID 95 - attachment - mag1-free-img
+==== DELETED - POST ID 384 - page - About Us
+==== DELETED - POST ID 40 - nav_menu_item - 
+==== DELETED - POST ID 385 - page - Menu
+==== DELETED - POST ID 43 - nav_menu_item - 
+==== DELETED - POST ID 42 -  - 
+==== DELETED - POST ID 41 -  - 
+==== DELETED - POST ID 96 - attachment - mag2-free-img
+==== DELETED - POST ID 97 - attachment - mag3-free-img
+==== DELETED - POST ID 103 - attachment - demo-screenshot-free-img
+==== DELETED - POST ID 123 - attachment - blog01-free-img
+==== DELETED - POST ID 162 - attachment - pic02-free-img
+==== DELETED - POST ID 166 - attachment - blog03-free-img
+==== DELETED - POST ID 167 - attachment - pic03-free-img
+==== DELETED - POST ID 172 - attachment - pic04-free-img
+==== DELETED - POST ID 173 - attachment - blog04-free-img
+==== DELETED - POST ID 300 - nav_menu_item - 
+==== DELETED - POST ID 310 - attachment - blog02-free-img-1024&#215;555
+==== DELETED - POST ID 315 - attachment - blog06-free-img
+==== DELETED - POST ID 316 - attachment - blog05-free-img
+==== DELETED - POST ID 9 - page - Contact Us
+==== DELETED - POST ID 118 - page - Blog
+==== DELETED - POST ID 122 - post - Adamson Barbecue
+==== DELETED - POST ID 157 - post - Stockyards Smokehouse
+==== DELETED - POST ID 165 - post - Electric Mud BBQ
+==== DELETED - POST ID 171 - post - Cherry Street Bar-B-Que
+==== IMPORTED - CUSTOMIZER SETTINGS {"astra-settings":{"astra-addon-auto-version":"1.7.0","theme-auto-version":"1.7.1","primary-submenu-item-border":1,"site-sidebar-layout":"right-sidebar","single-page-sidebar-layout":"no-sidebar","site-content-layout":"boxed-container","different-retina-logo":true,"ast-header-retina-logo":"https:\/\/websitedemos.net\/bbq-restaurant-04\/wp-content\/uploads\/sites\/284\/2018\/10\/logo@2x-free-img.png","header-main-rt-section":"button","header-main-rt-section-html":"","header-main-sep":0,"primary-submenu-border":{"top":"1","right":"1","bottom":"1","left":"1"},"mobile-header-toggle-btn-style":"fill","mobile-header-toggle-btn-style-color":"#1d1d23","hide-custom-menu-mobile":false,"primary-submenu-item-b-color":"#eaeaea","footer-sml-layout":"footer-sml-layout-2","footer-sml-section-1-credit":"<span style=\"font-size: 0.8em; text-transform: uppercase;\">Copyright \u00a9 [current_year] [site_title] | <a href=\"#\">Credits<\/a><\/span>","footer-sml-section-2":"custom","footer-sml-section-2-credit":"<span style=\"font-size: 0.8em; text-transform: uppercase;\">Powered by <a href=\"#\">[site_title]<\/a><\/span>","footer-sml-divider":0,"theme-color":"#db9423","link-color":"#db9423","link-h-color":"#db9423","text-color":"#1d1d23","footer-color":"rgba(255,255,255,0.3)","footer-link-color":"rgba(255,255,255,0.5)","footer-link-h-color":"#db9423","footer-bg-obj":{"background-color":"rgba(0,0,0,0)","background-image":"","background-repeat":"repeat","background-position":"center center","background-size":"auto","background-attachment":"scroll"},"body-font-family":"'Poppins', sans-serif","body-font-weight":"400","headings-font-family":"'Abril Fatface', display","headings-font-weight":"400","display-site-title":false,"font-size-h1":{"desktop":"6","tablet":"5","mobile":"40","desktop-unit":"em","tablet-unit":"em","mobile-unit":"px"},"font-size-h2":{"desktop":"3","tablet":"","mobile":"30","desktop-unit":"em","tablet-unit":"px","mobile-unit":"px"},"font-size-h3":{"desktop":"2","tablet":"","mobile":"22","desktop-unit":"em","tablet-unit":"px","mobile-unit":"px"},"font-size-h4":{"desktop":"1.5","tablet":"","mobile":"22","desktop-unit":"em","tablet-unit":"px","mobile-unit":"px"},"font-size-h5":{"desktop":"1.25","tablet":"","mobile":"","desktop-unit":"em","tablet-unit":"px","mobile-unit":"px"},"font-size-h6":{"desktop":"1","tablet":"","mobile":"","desktop-unit":"em","tablet-unit":"px","mobile-unit":"px"},"button-color":"#ffffff","button-h-color":"#ffffff","button-bg-color":"#db9423","button-bg-h-color":"#1d1d23","button-radius":50,"button-v-padding":8,"button-h-padding":35,"ast-header-responsive-logo-width":{"desktop":"","tablet":"150","mobile":"120"},"above-header-submenu-item-border":1,"below-header-submenu-item-border":1,"body-font-variant":"400","headings-font-variant":"400","transparent-header-enable":0,"font-size-page-title":{"desktop":"30","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"logo-title-inline":0,"wc-header-cart-header-colors":false,"blog-single-post-structure":["single-title-meta","single-image"],"shop-quick-view-stick-cart":true,"header-main-rt-section-button-text":"Reservation","header-main-rt-section-button-link":"#"},"custom-css":""}
+==== IMPORTED - WIDGETS {"sidebar-1":{"search-2":{"title":""},"recent-posts-2":{"title":"","number":5},"recent-comments-2":{"title":"","number":5},"archives-2":{"title":"","count":0,"dropdown":0},"categories-2":{"title":"","count":0,"hierarchical":0,"dropdown":0},"meta-2":{"title":""}}}
+==== Complete ====

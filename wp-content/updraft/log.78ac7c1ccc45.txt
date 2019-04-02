@@ -1,0 +1,343 @@
+0000.000 (0) Opened log file at time: Tue, 02 Apr 2019 05:12:19 +0000 on http://3.104.220.106
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.10 WP: 5.0.4 PHP: 7.2.13 (fpm-fcgi, Linux ip-172-31-8-28 4.4.0-1074-aws #84-Ubuntu SMP Thu Dec 6 08:57:58 UTC 2018 x86_64) MySQL: 8.0.13 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 2M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 6063.3 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.021 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.029 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-04-02 05:12:19
+0000.034 (0) Semaphore (fd, wp_options) reset to 1
+0000.037 (0) Set semaphore last lock (fd) time to 2019-04-02 05:12:19
+0000.041 (0) Semaphore lock (fd) complete
+0000.052 (0) Backup run: resumption=0, nonce=78ac7c1ccc45, file_nonce=78ac7c1ccc45 begun at=1554181939 (0s ago), job type=backup
+0000.060 (0) Scheduling a resumption (1) after 300 seconds (1554182239) in case this run gets aborted
+0000.085 (0) Checking if we have a zip executable available
+0000.091 (0) Testing: /usr/bin/zip
+0000.098 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.103 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.108 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.112 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.116 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.124 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.128 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.132 (0) Working binary zip found: /usr/bin/zip
+0000.140 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.146 (0) Creation of backups of directories: beginning
+0000.158 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.216 (0) Total entities for the zip file: 885 directories, 3741 files (0 skipped as non-modified), 59.6 MB
+0000.239 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.245 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.252 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.258 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.262 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.265 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 3741 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.693 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: size is now: 2.70 MB
+0000.702 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 600 files added (on-disk size: 2742.4 KB)
+0000.708 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 700 files added (on-disk size: 2742.4 KB)
+0000.714 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 800 files added (on-disk size: 2742.4 KB)
+0000.719 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 900 files added (on-disk size: 2742.4 KB)
+0000.724 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1000 files added (on-disk size: 2742.4 KB)
+0000.728 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 3741 files batched, 501 (1002) added so far); re-opening (prior size: 2742.4 KB)
+0001.016 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: size is now: 5.20 MB
+0001.034 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1100 files added (on-disk size: 5372.2 KB)
+0001.039 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1200 files added (on-disk size: 5372.2 KB)
+0001.045 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1300 files added (on-disk size: 5372.2 KB)
+0001.050 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1400 files added (on-disk size: 5372.2 KB)
+0001.055 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1500 files added (on-disk size: 5372.2 KB)
+0001.058 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 3741 files batched, 501 (1503) added so far); re-opening (prior size: 5372.2 KB)
+0001.323 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: size is now: 6.80 MB
+0001.363 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1600 files added (on-disk size: 6936.3 KB)
+0001.368 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1700 files added (on-disk size: 6936.3 KB)
+0001.375 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1800 files added (on-disk size: 6936.3 KB)
+0001.379 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 1900 files added (on-disk size: 6936.3 KB)
+0001.384 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2000 files added (on-disk size: 6936.3 KB)
+0001.391 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 3741 files batched, 501 (2004) added so far); re-opening (prior size: 6936.3 KB)
+0001.718 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: size is now: 10.20 MB
+0001.972 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2100 files added (on-disk size: 10464.1 KB)
+0002.128 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2200 files added (on-disk size: 10464.1 KB)
+0002.142 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2300 files added (on-disk size: 10464.1 KB)
+0002.147 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2400 files added (on-disk size: 10464.1 KB)
+0002.152 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2500 files added (on-disk size: 10464.1 KB)
+0002.156 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.4 MB, 3741 files batched, 501 (2505) added so far); re-opening (prior size: 10464.1 KB)
+0003.208 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: size is now: 15.60 MB
+0003.235 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2600 files added (on-disk size: 16006.3 KB)
+0003.242 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2700 files added (on-disk size: 16006.3 KB)
+0003.247 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2800 files added (on-disk size: 16006.3 KB)
+0003.254 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 2900 files added (on-disk size: 16006.3 KB)
+0003.259 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 3000 files added (on-disk size: 16006.3 KB)
+0003.264 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 3741 files batched, 501 (3006) added so far); re-opening (prior size: 16006.3 KB)
+0003.485 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 3100 files added (on-disk size: 16873.3 KB)
+0003.492 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 3200 files added (on-disk size: 16873.3 KB)
+0003.498 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 3300 files added (on-disk size: 16873.3 KB)
+0003.503 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 3400 files added (on-disk size: 16873.3 KB)
+0003.510 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 3500 files added (on-disk size: 16873.3 KB)
+0003.513 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 3741 files batched, 501 (3507) added so far); re-opening (prior size: 16873.3 KB)
+0003.940 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 3600 files added (on-disk size: 19106.9 KB)
+0003.946 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip.tmp: 3700 files added (on-disk size: 19106.9 KB)
+0004.337 (0) Created plugins zip (0) - 19703.3 KB in 4.2 s (4720.6 KB/s) (sha1: 8557d65b6d8f4ca025b8533a2b4e2a8845425e71, sha256: b2ff3944c71ef6befed3aa1b3c4f22e04ab5914f4f4f591cdcddbf2815973d8f)
+0004.340 (0) Deleting old temporary file: log.177afb4aa6ac-browser.txt
+0004.348 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.365 (0) Total entities for the zip file: 139 directories, 554 files (0 skipped as non-modified), 6.3 MB
+0004.372 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.379 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.386 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.392 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.399 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.404 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 554 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.578 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip.tmp: size is now: 2.10 MB
+0004.662 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip.tmp: size is now: 2.70 MB
+0004.725 (0) Created themes zip (0) - 2774.2 KB in 0.4 s (7454.4 KB/s) (sha1: 4973b5357c31c304cf46ad2028b9711403e0850e, sha256: ba8d553469590751cd045cd0dae253cbe00ba1e98b7a488baf5edb73eaf2f343)
+0004.733 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.737 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads
+0004.740 (0) finding files: astra-sites: adding to list (1)
+0004.744 (0) finding files: 2019: adding to list (2)
+0004.748 (0) finding files: pum: adding to list (3)
+0004.752 (0) finding files: elementor: adding to list (4)
+0004.755 (0) finding files: 2018: adding to list (5)
+0004.759 (0) finding files: revisr-backups: skipping: excluded by options (glob)
+0004.764 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.777 (0) Total entities for the zip file: 13 directories, 584 files (0 skipped as non-modified), 47.4 MB
+0004.789 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.794 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.798 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 584 files batched, 251 (251) added so far); re-opening (prior size: 0 KB)
+0004.990 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip.tmp: size is now: 24.30 MB
+0005.025 (0) A useful amount of data was added after this amount of zip processing: 0.6 s (normalised: 0.6 s, rate: 44966.3 KB/s)
+0005.033 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.56994891166687, normalised_time=0.56931538585202, max_time=5.0288281440735, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0005.043 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip.tmp: 300 files added (on-disk size: 24895.6 KB)
+0005.050 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip.tmp: 400 files added (on-disk size: 24895.6 KB)
+0005.055 (0) Zip: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip.tmp: 500 files added (on-disk size: 24895.6 KB)
+0005.248 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip.tmp: size is now: 46.30 MB
+0005.920 (0) Created uploads zip (0) - 47412.4 KB in 1.2 s (41140.5 KB/s) (sha1: 88806253cf87fdac42568edcda3acf9240038f6d, sha256: b6792f9412f4fd7c948a8ccf16aa82f1ff11cb331e45d82fd6b2b0c6a90fc21c)
+0005.928 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.932 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.936 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content
+0005.940 (0) finding files: themes-old: adding to list (1)
+0005.943 (0) finding files: upgrade: skipping: excluded by options
+0005.948 (0) finding files: languages: adding to list (2)
+0005.952 (0) finding files: ari-adminer-config.php: adding to list (3)
+0005.956 (0) finding files: ari-adminer-config.php-old: adding to list (4)
+0005.959 (0) finding files: languages-old: adding to list (5)
+0005.963 (0) finding files: index.php: adding to list (6)
+0005.967 (0) finding files: uploads-old: adding to list (7)
+0005.971 (0) finding files: updraft: skipping: this is the updraft directory
+0005.978 (0) finding files: themes: skipping: this is the themes directory
+0005.982 (0) finding files: plugins: skipping: this is the plugins directory
+0005.985 (0) finding files: index.php-old: adding to list (8)
+0005.989 (0) finding files: uploads: skipping: this is the uploads directory
+0005.992 (0) finding files: plugins-old: adding to list (9)
+0006.002 (0) Total entities for the zip file: 9 directories, 4 files (0 skipped as non-modified), 0 MB
+0006.011 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-others.zip.tmp: size is now: 0.00 MB
+0006.028 (0) Created others zip (0) - 2.3 KB in 0 s (74.7 KB/s) (sha1: 9733c98036921bc422decbe9a625da20890396b0, sha256: 0028bcb300a301d665cdab16b11b3be13dd5ed2c43250cf1db4639e8cc4981bc)
+0006.046 (0) Saving backup status to database (elements: 8)
+0006.055 (0) Beginning creation of database dump (WordPress DB)
+0006.083 (0) Table wp_options: Total expected rows (approximate): 311
+0006.231 (0) Table wp_options: Total rows added: 312 in 0.14 seconds
+0006.243 (0) Table wp_options: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_options.table.gz - 334.5 KB)
+0006.258 (0) Table wp_users: Total expected rows (approximate): 1
+0006.264 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0006.268 (0) Table wp_users: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_users.table.gz - 0.6 KB)
+0006.283 (0) Table wp_usermeta: Total expected rows (approximate): 24
+0006.289 (0) Table wp_usermeta: Total rows added: 24 in 0.00 seconds
+0006.293 (0) Table wp_usermeta: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_usermeta.table.gz - 1.5 KB)
+0006.309 (0) Table wp_commentmeta: Total expected rows (approximate): 3
+0006.314 (0) Table wp_commentmeta: Total rows added: 3 in 0.00 seconds
+0006.316 (0) Table wp_commentmeta: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_commentmeta.table.gz - 0.5 KB)
+0006.332 (0) Table wp_comments: Total expected rows (approximate): 2
+0006.339 (0) Table wp_comments: Total rows added: 2 in 0.00 seconds
+0006.344 (0) Table wp_comments: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_comments.table.gz - 0.8 KB)
+0006.363 (0) Table wp_links: Total expected rows (approximate): 0
+0006.372 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0006.377 (0) Table wp_links: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_links.table.gz - 0.5 KB)
+0006.393 (0) Table wp_postmeta: Total expected rows (approximate): 1212
+0006.958 (0) Table wp_postmeta: Total rows added: 1225 in 0.56 seconds
+0006.983 (0) Table wp_postmeta: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_postmeta.table.gz - 717.6 KB)
+0007.000 (0) Table wp_posts: Total expected rows (approximate): 290
+0007.035 (0) Table wp_posts: Total rows added: 290 in 0.03 seconds
+0007.040 (0) Table wp_posts: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_posts.table.gz - 36.4 KB)
+0007.054 (0) Table wp_term_relationships: Total expected rows (approximate): 9
+0007.060 (0) Table wp_term_relationships: Total rows added: 9 in 0.00 seconds
+0007.064 (0) Table wp_term_relationships: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0007.079 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0007.085 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0007.089 (0) Table wp_term_taxonomy: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0007.105 (0) Table wp_termmeta: Total expected rows (approximate): 2
+0007.111 (0) Table wp_termmeta: Total rows added: 2 in 0.00 seconds
+0007.116 (0) Table wp_termmeta: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_termmeta.table.gz - 0.4 KB)
+0007.132 (0) Table wp_terms: Total expected rows (approximate): 3
+0007.138 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0007.141 (0) Table wp_terms: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_terms.table.gz - 0.4 KB)
+0007.158 (0) Table wp_ariadminer_connections: Total expected rows (approximate): 0
+0007.166 (0) Table wp_ariadminer_connections: Total rows added: 0 in 0.01 seconds
+0007.170 (0) Table wp_ariadminer_connections: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_ariadminer_connections.table.gz - 0.5 KB)
+0007.186 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 4
+0007.192 (0) Table wp_nextend2_image_storage: Total rows added: 4 in 0.00 seconds
+0007.196 (0) Table wp_nextend2_image_storage: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_image_storage.table.gz - 0.7 KB)
+0007.234 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 2
+0007.248 (0) Table wp_nextend2_section_storage: Total rows added: 2 in 0.00 seconds
+0007.253 (0) Table wp_nextend2_section_storage: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_section_storage.table.gz - 0.5 KB)
+0007.269 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0007.279 (0) Table wp_nextend2_smartslider3_generators: Total rows added: 0 in 0.01 seconds
+0007.285 (0) Table wp_nextend2_smartslider3_generators: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_smartslider3_generators.table.gz - 0.3 KB)
+0007.306 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 1
+0007.310 (0) Table wp_nextend2_smartslider3_sliders: Total rows added: 1 in 0.00 seconds
+0007.314 (0) Table wp_nextend2_smartslider3_sliders: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_smartslider3_sliders.table.gz - 1.6 KB)
+0007.331 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0007.338 (0) Table wp_nextend2_smartslider3_sliders_xref: Total rows added: 0 in 0.00 seconds
+0007.341 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz - 0.3 KB)
+0007.358 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 3
+0007.363 (0) Table wp_nextend2_smartslider3_slides: Total rows added: 3 in 0.00 seconds
+0007.367 (0) Table wp_nextend2_smartslider3_slides: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_smartslider3_slides.table.gz - 2 KB)
+0007.382 (0) Table wp_revisr: Total expected rows (approximate): 6
+0007.388 (0) Table wp_revisr: Total rows added: 6 in 0.00 seconds
+0007.392 (0) Table wp_revisr: finishing file (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_revisr.table.gz - 0.6 KB)
+0007.406 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_options.table.gz (1/20): adding to final database dump
+0007.553 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_users.table.gz (2/20): adding to final database dump
+0007.564 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_usermeta.table.gz (3/20): adding to final database dump
+0007.569 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_commentmeta.table.gz (4/20): adding to final database dump
+0007.572 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_comments.table.gz (5/20): adding to final database dump
+0007.576 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_links.table.gz (6/20): adding to final database dump
+0007.580 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_postmeta.table.gz (7/20): adding to final database dump
+0008.163 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_posts.table.gz (8/20): adding to final database dump
+0008.196 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_term_relationships.table.gz (9/20): adding to final database dump
+0008.201 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_term_taxonomy.table.gz (10/20): adding to final database dump
+0008.207 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_termmeta.table.gz (11/20): adding to final database dump
+0008.220 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_terms.table.gz (12/20): adding to final database dump
+0008.231 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_ariadminer_connections.table.gz (13/20): adding to final database dump
+0008.236 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_image_storage.table.gz (14/20): adding to final database dump
+0008.240 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_section_storage.table.gz (15/20): adding to final database dump
+0008.244 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_smartslider3_generators.table.gz (16/20): adding to final database dump
+0008.248 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_smartslider3_sliders.table.gz (17/20): adding to final database dump
+0008.252 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (18/20): adding to final database dump
+0008.255 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_nextend2_smartslider3_slides.table.gz (19/20): adding to final database dump
+0008.260 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db-table-wp_revisr.table.gz (20/20): adding to final database dump
+0008.267 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db.gz: finished writing out complete database file (1072 KB)
+0008.297 (0) Total database tables backed up: 20 (backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db.gz, size: 1122711, sha256)
+0008.314 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.317 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.321 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.325 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-others.zip: others: This file has not yet been successfully uploaded: will queue
+0008.329 (0) backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.332 (0) Saving backup history. Total backup size: 69.3 MB
+0008.345 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0008.357 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0008.364 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c7c49357eddfc7f4bcb0559626730c05)
+0010.148 (0) Google Drive: quota usage: used=3445.3 MB, total=10489205.3 MB, available=10485760 MB
+0010.253 (0) Google Drive: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip: Attempting to upload to Google Drive (into folder id: 1S6CjLsvHSUn0Yo-WxEoNqaLLPfHAB55Y)
+0011.832 (0) Googledrive chunked upload: 5.2 % uploaded (1048576)
+0012.611 (0) Googledrive chunked upload: 10.4 % uploaded (2097152)
+0013.490 (0) Googledrive chunked upload: 15.6 % uploaded (3145728)
+0014.473 (0) Googledrive chunked upload: 20.8 % uploaded (4194304)
+0015.252 (0) Googledrive chunked upload: 26 % uploaded (5242880)
+0016.333 (0) Googledrive chunked upload: 31.2 % uploaded (6291456)
+0017.313 (0) Googledrive chunked upload: 36.4 % uploaded (7340032)
+0018.092 (0) Googledrive chunked upload: 41.6 % uploaded (8388608)
+0018.872 (0) Googledrive chunked upload: 46.8 % uploaded (9437184)
+0019.652 (0) Googledrive chunked upload: 52 % uploaded (10485760)
+0020.532 (0) Googledrive chunked upload: 57.2 % uploaded (11534336)
+0021.412 (0) Googledrive chunked upload: 62.4 % uploaded (12582912)
+0022.492 (0) Googledrive chunked upload: 67.6 % uploaded (13631488)
+0023.270 (0) Googledrive chunked upload: 72.8 % uploaded (14680064)
+0024.149 (0) Googledrive chunked upload: 78 % uploaded (15728640)
+0024.931 (0) Googledrive chunked upload: 83.2 % uploaded (16777216)
+0025.812 (0) Googledrive chunked upload: 88.4 % uploaded (17825792)
+0026.592 (0) Googledrive chunked upload: 93.5 % uploaded (18874368)
+0027.672 (0) Googledrive chunked upload: 98.7 % uploaded (19922944)
+0029.449 (0) Googledrive chunked upload: 100 % uploaded (19922944)
+0029.461 (0) Google Drive: OK: Archive backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip uploaded in 19.2 seconds
+0029.465 (0) Recording as successfully uploaded: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip
+0029.476 (0) Deleting local file: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-plugins.zip: OK
+0030.013 (0) Google Drive: quota usage: used=3464.5 MB, total=10489224.5 MB, available=10485760 MB
+0030.064 (0) Google Drive: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip: Attempting to upload to Google Drive (into folder id: 1S6CjLsvHSUn0Yo-WxEoNqaLLPfHAB55Y)
+0031.538 (0) Googledrive chunked upload: 36.9 % uploaded (1048576)
+0032.616 (0) Googledrive chunked upload: 73.8 % uploaded (2097152)
+0034.392 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0034.404 (0) Google Drive: OK: Archive backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip uploaded in 4.34 seconds
+0034.408 (0) Recording as successfully uploaded: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip
+0034.416 (0) Deleting local file: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-themes.zip: OK
+0035.164 (0) Google Drive: quota usage: used=3467.2 MB, total=10489227.2 MB, available=10485760 MB
+0035.186 (0) Google Drive: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip: Attempting to upload to Google Drive (into folder id: 1S6CjLsvHSUn0Yo-WxEoNqaLLPfHAB55Y)
+0036.964 (0) Googledrive chunked upload: 2.2 % uploaded (1048576)
+0038.044 (0) Googledrive chunked upload: 4.3 % uploaded (2097152)
+0038.923 (0) Googledrive chunked upload: 6.5 % uploaded (3145728)
+0040.004 (0) Googledrive chunked upload: 8.6 % uploaded (4194304)
+0040.782 (0) Googledrive chunked upload: 10.8 % uploaded (5242880)
+0041.660 (0) Googledrive chunked upload: 13 % uploaded (6291456)
+0042.640 (0) Googledrive chunked upload: 15.1 % uploaded (7340032)
+0043.419 (0) Googledrive chunked upload: 17.3 % uploaded (8388608)
+0044.197 (0) Googledrive chunked upload: 19.4 % uploaded (9437184)
+0045.287 (0) Googledrive chunked upload: 21.6 % uploaded (10485760)
+0046.066 (0) Googledrive chunked upload: 23.8 % uploaded (11534336)
+0047.148 (0) Googledrive chunked upload: 25.9 % uploaded (12582912)
+0048.236 (0) Googledrive chunked upload: 28.1 % uploaded (13631488)
+0049.016 (0) Googledrive chunked upload: 30.2 % uploaded (14680064)
+0050.096 (0) Googledrive chunked upload: 32.4 % uploaded (15728640)
+0051.076 (0) Googledrive chunked upload: 34.6 % uploaded (16777216)
+0051.955 (0) Googledrive chunked upload: 36.7 % uploaded (17825792)
+0053.033 (0) Googledrive chunked upload: 38.9 % uploaded (18874368)
+0054.113 (0) Googledrive chunked upload: 41 % uploaded (19922944)
+0054.893 (0) Googledrive chunked upload: 43.2 % uploaded (20971520)
+0055.673 (0) Googledrive chunked upload: 45.4 % uploaded (22020096)
+0056.452 (0) Googledrive chunked upload: 47.5 % uploaded (23068672)
+0057.230 (0) Googledrive chunked upload: 49.7 % uploaded (24117248)
+0058.109 (0) Googledrive chunked upload: 51.8 % uploaded (25165824)
+0059.194 (0) Googledrive chunked upload: 54 % uploaded (26214400)
+0060.273 (0) Googledrive chunked upload: 56.2 % uploaded (27262976)
+0061.352 (0) Googledrive chunked upload: 58.3 % uploaded (28311552)
+0062.430 (0) Googledrive chunked upload: 60.5 % uploaded (29360128)
+0063.209 (0) Googledrive chunked upload: 62.6 % uploaded (30408704)
+0064.195 (0) Googledrive chunked upload: 64.8 % uploaded (31457280)
+0064.976 (0) Googledrive chunked upload: 67 % uploaded (32505856)
+0065.856 (0) Googledrive chunked upload: 69.1 % uploaded (33554432)
+0066.636 (0) Googledrive chunked upload: 71.3 % uploaded (34603008)
+0067.415 (0) Googledrive chunked upload: 73.4 % uploaded (35651584)
+0068.296 (0) Googledrive chunked upload: 75.6 % uploaded (36700160)
+0069.377 (0) Googledrive chunked upload: 77.8 % uploaded (37748736)
+0070.156 (0) Googledrive chunked upload: 79.9 % uploaded (38797312)
+0070.935 (0) Googledrive chunked upload: 82.1 % uploaded (39845888)
+0071.714 (0) Googledrive chunked upload: 84.2 % uploaded (40894464)
+0072.502 (0) Googledrive chunked upload: 86.4 % uploaded (41943040)
+0073.381 (0) Googledrive chunked upload: 88.6 % uploaded (42991616)
+0074.166 (0) Googledrive chunked upload: 90.7 % uploaded (44040192)
+0075.043 (0) Googledrive chunked upload: 92.9 % uploaded (45088768)
+0076.124 (0) Googledrive chunked upload: 95 % uploaded (46137344)
+0076.902 (0) Googledrive chunked upload: 97.2 % uploaded (47185920)
+0077.780 (0) Googledrive chunked upload: 99.3 % uploaded (48234496)
+0079.459 (0) Googledrive chunked upload: 100 % uploaded (48234496)
+0079.472 (0) Google Drive: OK: Archive backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip uploaded in 44.28 seconds
+0079.475 (0) Recording as successfully uploaded: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip
+0079.489 (0) Deleting local file: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-uploads.zip: OK
+0080.002 (0) Google Drive: quota usage: used=3513.5 MB, total=10489273.5 MB, available=10485760 MB
+0080.078 (0) Google Drive: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-others.zip: Attempting to upload to Google Drive (into folder id: 1S6CjLsvHSUn0Yo-WxEoNqaLLPfHAB55Y)
+0082.153 (0) Googledrive chunked upload: 100 % uploaded
+0082.166 (0) Google Drive: OK: Archive backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-others.zip uploaded in 2.08 seconds
+0082.170 (0) Recording as successfully uploaded: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-others.zip
+0082.178 (0) Deleting local file: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-others.zip: OK
+0082.680 (0) Google Drive: quota usage: used=3513.5 MB, total=10489273.5 MB, available=10485760 MB
+0082.685 (0) Google Drive: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db.gz: Attempting to upload to Google Drive (into folder id: 1S6CjLsvHSUn0Yo-WxEoNqaLLPfHAB55Y)
+0084.260 (0) Googledrive chunked upload: 93.4 % uploaded (1048576)
+0085.735 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0085.748 (0) Google Drive: OK: Archive backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db.gz uploaded in 3.06 seconds
+0085.755 (0) Recording as successfully uploaded: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db.gz
+0085.764 (0) Deleting local file: backup_2019-04-02-0512_TECH_SIMIANS_PRESENT_ABC_78ac7c1ccc45-db.gz: OK
+0085.773 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0085.777 (0) Number of backup sets in history: 2; groups (db): 1
+0085.781 (0) Examining (for databases) backup set with group_id=0, nonce=78ac7c1ccc45, datestamp=1554181939 (Apr 02 2019 05:12:19)
+0085.784 (0) This backup set is the backup set just made, so will not be deleted.
+0085.784 (0) Examining (for databases) backup set with group_id=0, nonce=190a9a2f4e7a, datestamp=1554181383 (Apr 02 2019 05:03:03)
+0085.784 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.788 (0) Number of backup sets in history: 2; groups (files): 1
+0085.792 (0) Examining (for files) backup set with nonce=78ac7c1ccc45, datestamp=1554181939 (Apr 02 2019 05:12:19)
+0085.792 (0) This backup set is the backup set just made, so will not be deleted.
+0085.796 (0) This backup set is the backup set just made, so will not be deleted.
+0085.796 (0) This backup set is the backup set just made, so will not be deleted.
+0085.796 (0) This backup set is the backup set just made, so will not be deleted.
+0085.796 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.799 (0) Examining (for files) backup set with nonce=190a9a2f4e7a, datestamp=1554181383 (Apr 02 2019 05:03:03)
+0085.800 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.800 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0085.808 (0) Resume backup (78ac7c1ccc45, 0): finish run
+0085.822 (0) Decremented the semaphore (fd) by 1
+0085.830 (0) Semaphore (fd) unlocked
+0085.834 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0085.851 (0) Fetching RSS news feed
+0086.351 (0) Fetched RSS news feed; result is a: SimplePie
+0086.361 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: user@...
+0086.371 (0) The backup apparently succeeded and is now complete
